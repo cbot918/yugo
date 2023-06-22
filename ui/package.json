@@ -1,0 +1,8 @@
+{
+  "type":"module",
+  "scripts": {
+    "build":"tsc",
+    "postbuild":"cp src/*.html src/*.css build/",
+    "dev":"tsc --watch"
+  }
+}
